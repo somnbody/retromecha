@@ -1,0 +1,77 @@
+{
+  "_resourceType": "scene",
+  "id": "e1d4fa3a-d2bf-4e6a-8acd-81d610b26a75",
+  "_index": 1,
+  "name": "ScoreScene",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 530,
+  "y": 183,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "scoring",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "58309d4b-3dfe-4894-8a58-0b681c72c25e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 69
+        }
+      },
+      "id": "26f31b9a-e587-4226-930c-58ffd5548f5f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 82
+        }
+      },
+      "id": "b4b336cb-abc9-48b2-b131-192f3068f3cc"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 78
+        }
+      },
+      "id": "89a34fd3-fb36-42e0-acdd-dcae99d96007"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e938842f-d493-4bb5-85bb-20cd4af7680f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

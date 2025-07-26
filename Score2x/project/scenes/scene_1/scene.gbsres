@@ -1,0 +1,199 @@
+{
+  "_resourceType": "scene",
+  "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff",
+  "_index": 0,
+  "name": "Scene 1",
+  "backgroundId": "0e705834-0a0e-422b-8522-d7d11900e392",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f0+0f15+0012+0f2+0012+0f2+0012+0f2+0012+0f15+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 326,
+  "y": 245,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0b086f2b-70fe-4668-a582-69d38d4704fb"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "72ece6d7-2c69-41f4-a26a-bc3305f7cbbe"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "FO_EVENT_CUSTOM_PROJECTILE",
+                  "args": {
+                    "tabs": "general",
+                    "lifetime": false,
+                    "bounds": true,
+                    "ignore": false,
+                    "gravity": 0,
+                    "collision": 2,
+                    "bounce": 40,
+                    "death": 2,
+                    "varX": "L0",
+                    "varY": "L0",
+                    "projectile": 3,
+                    "arc_height": 50,
+                    "distance": 2,
+                    "amplitude": 30,
+                    "frequency": 10,
+                    "phase": 64,
+                    "actor": "$self$",
+                    "orbit_x_offset": 0,
+                    "orbit_y_offset": 0,
+                    "orbit_amplitude": 100,
+                    "orbit_frequency": 20,
+                    "orbit_phase": 64,
+                    "launch": false,
+                    "hookshot_chain": 0,
+                    "anchor_ignore": true,
+                    "dir_offset": 0,
+                    "customX": "L0",
+                    "customY": "L0"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "L0"
+                        },
+                        "id": "f3ae5744-d5ad-4784-a7f7-fb50d1daa253"
+                      }
+                    ]
+                  },
+                  "id": "4f548eb1-ad40-440a-b0e2-1b2b09608a63"
+                },
+                {
+                  "command": "EVENT_LAUNCH_PROJECTILE",
+                  "args": {
+                    "__section": "projectile",
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteStateId": "",
+                    "actorId": "$self$",
+                    "x": 0,
+                    "y": 0,
+                    "directionType": "actor",
+                    "otherActorId": "$self$",
+                    "direction": "right",
+                    "angle": 0,
+                    "angleVariable": "L0",
+                    "targetActorId": "$self$",
+                    "initialOffset": 0,
+                    "speed": 2,
+                    "animSpeed": 15,
+                    "lifeTime": 2,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "3",
+                    "collisionMask": [
+                      "3"
+                    ]
+                  },
+                  "id": "22faf743-2ce7-43ae-b2ae-bbe895318ae6"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "L0"
+                  },
+                  "id": "0f33d8f9-c451-4ddd-a882-024315c886c0"
+                }
+              ],
+              "false": []
+            },
+            "id": "f750691a-5b0b-4927-af72-f7a6a202049a"
+          }
+        ]
+      },
+      "id": "0bbe875f-0f25-4ffc-a141-10afd31310ac"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "ee4bffc0-297d-4000-90b3-9f082b88e32f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "7a238059-8250-42f3-8b43-c796e88fd6f2"
+      },
+      "id": "92cafe1b-3fcd-483f-9f0d-7fbf8b2b365b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "parallax": [
+    {
+      "height": 8,
+      "speed": 2
+    },
+    {
+      "height": 6,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ],
+  "playerSpriteSheetId": "1185aca6-ca3c-4c5e-92d7-ace13d853d5f"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fc0f2318-cc92-4b54-aced-3e1f64691d9a",
+  "name": "grove2",
+  "symbol": "bg_grove2",
+  "width": 34,
+  "height": 18,
+  "imageWidth": 272,
+  "imageHeight": 144,
+  "filename": "grove2.png",
+  "tileColors": "",
+  "autoColor": false
+}

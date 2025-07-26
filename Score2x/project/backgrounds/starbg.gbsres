@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "04c5cfa1-dd71-4c15-81b7-d999146e0d15",
+  "name": "starbg",
+  "symbol": "bg_starbg",
+  "width": 51,
+  "height": 18,
+  "imageWidth": 408,
+  "imageHeight": 144,
+  "filename": "starbg.png",
+  "tileColors": "",
+  "autoColor": false
+}

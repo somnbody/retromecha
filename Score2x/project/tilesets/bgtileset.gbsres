@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b27da97e-f37c-493f-8ad8-e3ceeb44d13f",
+  "name": "bgtileset",
+  "symbol": "tileset_bgtileset",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bgtileset.png"
+}

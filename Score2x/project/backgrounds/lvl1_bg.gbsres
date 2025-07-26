@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0e705834-0a0e-422b-8522-d7d11900e392",
+  "name": "lvl1_bg",
+  "symbol": "bg_lvl1_bg",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "lvl1_bg.png",
+  "tileColors": "",
+  "autoColor": false
+}

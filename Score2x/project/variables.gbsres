@@ -1,0 +1,160 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "glblScore",
+      "symbol": "var_glblscore"
+    },
+    {
+      "id": "1",
+      "name": "initial1",
+      "symbol": "var_initial1"
+    },
+    {
+      "id": "2",
+      "name": "initial2",
+      "symbol": "var_initial2"
+    },
+    {
+      "id": "3",
+      "name": "initial3",
+      "symbol": "var_initial3"
+    },
+    {
+      "id": "4",
+      "name": "bSubmitScore",
+      "symbol": "var_bsubmitscore"
+    },
+    {
+      "id": "5",
+      "name": "glbBtnThresh",
+      "symbol": "var_glbbtnthresh"
+    },
+    {
+      "id": "6",
+      "name": "pDir",
+      "symbol": "var_pdir"
+    },
+    {
+      "id": "7",
+      "name": "posLastX",
+      "symbol": "var_poslastx"
+    },
+    {
+      "id": "8",
+      "name": "posLastY",
+      "symbol": "var_poslasty_1"
+    },
+    {
+      "id": "9",
+      "name": "btnAPressed",
+      "symbol": "var_btnapressed_2"
+    },
+    {
+      "id": "10",
+      "name": "glblMagSearch",
+      "symbol": "var_glblmagsearch"
+    },
+    {
+      "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff__L0",
+      "name": "numProjectiles",
+      "symbol": "var_numprojectiles"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L0",
+      "name": "springYinit",
+      "symbol": "var_springyinit"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L1",
+      "name": "springXinit",
+      "symbol": "var_springxinit_0"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L2",
+      "name": "posLastY",
+      "symbol": "var_poslasty"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L3",
+      "name": "btnApressed",
+      "symbol": "var_btnapressed"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L4",
+      "name": "isHeldDur",
+      "symbol": "var_ishelddur"
+    },
+    {
+      "id": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a__L5",
+      "name": "isExtended",
+      "symbol": "var_isextended"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L0",
+      "name": "Yinit",
+      "symbol": "var_yinit_0"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L1",
+      "name": "springXinit",
+      "symbol": "var_springxinit"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L2",
+      "name": "notUsed",
+      "symbol": "var_notused"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L3",
+      "name": "btnApressed",
+      "symbol": "var_btnapressed_0"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L4",
+      "name": "isHeldDur",
+      "symbol": "var_ishelddur_0"
+    },
+    {
+      "id": "da231020-0375-4001-aa33-80863da25f66__L5",
+      "name": "isExtended",
+      "symbol": "var_isextended_0"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L0",
+      "name": "springYinit",
+      "symbol": "var_springyinit_0"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L1",
+      "name": "springXinit",
+      "symbol": "var_springxinit_1"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L2",
+      "name": "posLastY",
+      "symbol": "var_poslasty_0"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L3",
+      "name": "btnApressed",
+      "symbol": "var_btnapressed_1"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L4",
+      "name": "isHeldDur",
+      "symbol": "var_ishelddur_1"
+    },
+    {
+      "id": "49dd4fe3-9b75-49cf-b747-fabfe93ca47b__L5",
+      "name": "isExtended",
+      "symbol": "var_isextended_1"
+    },
+    {
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L0",
+      "name": "isCollected",
+      "symbol": "var_iscollected"
+    }
+  ]
+}

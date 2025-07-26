@@ -1,0 +1,54 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "bb32ee05-e74a-49b9-9223-f4be3b766cae",
+  "name": "trBreak",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "L0",
+        "vectorY": "L1",
+        "__collapse": false
+      },
+      "id": "0b3a792e-c0e3-42ef-8da2-311d73f2df53"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "tilesetId": "b27da97e-f37c-493f-8ad8-e3ceeb44d13f",
+        "tileIndex": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "73584843-ad99-4b2d-b5df-b3e3163897a1"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "horizontal",
+        "useCollisions": true
+      },
+      "id": "e99b4f21-b763-4dee-a580-6aa4cd6e1b2b"
+    }
+  ],
+  "leaveScript": []
+}
