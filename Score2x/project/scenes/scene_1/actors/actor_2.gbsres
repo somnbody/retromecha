@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1185aca6-ca3c-4c5e-92d7-ace13d853d5f",
+  "spriteSheetId": "f447d9eb-9410-4911-91db-1221bb2dfabd",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 8,
@@ -20,15 +20,15 @@
     {
       "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
       "args": {
-        "actorId": "$self$",
-        "__collapse": true
+        "actorId": "player",
+        "__collapse": false
       },
       "id": "17401270-fe87-4947-9b4d-157f63a3bb76"
     },
     {
       "command": "EVENT_ACTOR_SET_COLLISION_BOX",
       "args": {
-        "actorId": "$self$",
+        "actorId": "player",
         "x": -4,
         "y": 2,
         "width": 24,
@@ -44,7 +44,7 @@
           "type": "number",
           "value": 5
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "428cae67-ed04-41e3-8986-d82155ab3fab"
     },
@@ -55,7 +55,7 @@
         "value": {
           "type": "false"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e6c33d3f-8588-4c48-90db-3146938dd1f1"
     },
@@ -67,17 +67,17 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "b589d431-28a3-4adc-a6e9-643e4b205418"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
-        "actorId": "$self$",
+        "actorId": "player",
         "vectorX": "L1",
         "vectorY": "L0",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "fb155466-260b-4260-a51e-1f8f2a629223"
     },
@@ -115,7 +115,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "bbc60818-de48-4b7b-afd3-a47b716ca97c"
     }
@@ -220,7 +220,7 @@
                                   {
                                     "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                     "args": {
-                                      "actorId": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a",
+                                      "actorId": "player",
                                       "x": {
                                         "type": "expression",
                                         "value": "$06$ * 1"
@@ -242,7 +242,7 @@
                                         "type": "eq",
                                         "valueA": {
                                           "type": "property",
-                                          "target": "$self$",
+                                          "target": "player",
                                           "property": "xpos"
                                         },
                                         "valueB": {
@@ -301,7 +301,7 @@
                                         {
                                           "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                           "args": {
-                                            "actorId": "2c301b3c-03fd-4ec5-9b59-2951f30a5c9a",
+                                            "actorId": "player",
                                             "x": {
                                               "type": "expression",
                                               "value": "$06$ * 1"
@@ -333,7 +333,7 @@
                                   {
                                     "command": "EVENT_ACTOR_GET_POSITION",
                                     "args": {
-                                      "actorId": "$self$",
+                                      "actorId": "player",
                                       "vectorX": "7",
                                       "vectorY": "8",
                                       "__collapse": false
@@ -427,10 +427,10 @@
                             {
                               "command": "EVENT_ACTOR_MOVE_TO",
                               "args": {
-                                "actorId": "$self$",
+                                "actorId": "player",
                                 "x": {
                                   "type": "property",
-                                  "target": "$self$",
+                                  "target": "player",
                                   "property": "xpos"
                                 },
                                 "y": {
@@ -446,7 +446,7 @@
                             {
                               "command": "EVENT_ACTOR_GET_POSITION",
                               "args": {
-                                "actorId": "$self$",
+                                "actorId": "player",
                                 "vectorX": "7",
                                 "vectorY": "8",
                                 "__collapse": false
@@ -460,7 +460,7 @@
                                   "type": "eq",
                                   "valueA": {
                                     "type": "property",
-                                    "target": "$self$",
+                                    "target": "player",
                                     "property": "ypos"
                                   },
                                   "valueB": {
@@ -642,10 +642,10 @@
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "$self$",
+              "actorId": "player",
               "x": {
                 "type": "property",
-                "target": "$self$",
+                "target": "player",
                 "property": "xpos"
               },
               "y": {
@@ -737,7 +737,7 @@
   ],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 1,
-  "y": 3,
+  "x": 17,
+  "y": 16,
   "_index": 3
 }

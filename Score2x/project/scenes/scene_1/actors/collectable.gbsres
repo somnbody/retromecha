@@ -25,14 +25,14 @@
       "args": {
         "x": {
           "type": "property",
-          "target": "da231020-0375-4001-aa33-80863da25f66",
+          "target": "player",
           "property": "xpos"
         },
         "y": {
           "type": "add",
           "valueA": {
             "type": "property",
-            "target": "da231020-0375-4001-aa33-80863da25f66",
+            "target": "player",
             "property": "ypos"
           },
           "valueB": {
@@ -96,7 +96,7 @@
     "7e224f18-5327-4722-96d2-d1228a42213b": {
       "id": "7e224f18-5327-4722-96d2-d1228a42213b",
       "args": {
-        "actorId": "da231020-0375-4001-aa33-80863da25f66",
+        "actorId": "player",
         "distance": {
           "type": "number",
           "value": 2
