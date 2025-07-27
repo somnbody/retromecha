@@ -17,6 +17,17 @@
   "y": 183,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e938842f-d493-4bb5-85bb-20cd4af7680f"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "scoring",
@@ -58,17 +69,6 @@
         }
       },
       "id": "89a34fd3-fb36-42e0-acdd-dcae99d96007"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "4",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "e938842f-d493-4bb5-85bb-20cd4af7680f"
     }
   ],
   "playerHit1Script": [],

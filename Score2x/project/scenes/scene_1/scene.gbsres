@@ -19,6 +19,16 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
+        "variable": "9",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "702eb1b0-ce5e-4a29-9529-3d44cf3bcad6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
         "variable": "4",
         "value": {
           "type": "number",
@@ -78,7 +88,8 @@
           "start"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__comment": false
       },
       "children": {
         "true": [
