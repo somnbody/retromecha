@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00f0+0f15+0012+0f2+0012+0f2+0012+0f2+0012+0f15+",
+  "collisions": "00f5+0ff+0013+0f!0013+0f!0013+0f!0013+0f15+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 326,
@@ -22,9 +22,21 @@
         "variable": "9",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "702eb1b0-ce5e-4a29-9529-3d44cf3bcad6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "f59da9cf-19cf-45ae-8333-e48640e0d00a"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -34,9 +46,31 @@
           "type": "number",
           "value": 0
         },
-        "__comment": false
+        "__comment": false,
+        "__collapse": true
       },
       "id": "3e722dbc-b862-4f9b-ac72-7d3ddf594b92"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "395f68b0-6950-4c6c-9ff3-244ae632a476"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "3aa68e29-f1da-489e-be6d-2e8f738abd33"
     },
     {
       "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
@@ -67,7 +101,8 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": []
@@ -77,7 +112,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "7a238059-8250-42f3-8b43-c796e88fd6f2"
+        "musicId": "7a238059-8250-42f3-8b43-c796e88fd6f2",
+        "__collapse": true
       },
       "id": "92cafe1b-3fcd-483f-9f0d-7fbf8b2b365b"
     },
@@ -89,7 +125,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__comment": false
+        "__comment": false,
+        "__collapse": true
       },
       "children": {
         "true": [

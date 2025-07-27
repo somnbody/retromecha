@@ -1,0 +1,62 @@
+{
+  "_resourceType": "trigger",
+  "id": "df936a43-f3e0-4214-8292-f99f4cef655f",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 12,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 5,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "you sexy mfer"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2794c5aa-1105-4319-9d56-3159fb12fd29"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "83104c30-d50f-4475-b0a8-7a8baf7450ce"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "f04fcaee-3ed7-41a1-8093-e8b27c640013"
+    }
+  ],
+  "_index": 0
+}

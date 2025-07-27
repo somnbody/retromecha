@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "da231020-0375-4001-aa33-80863da25f66",
-  "name": "",
+  "name": "PlayerControls",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f447d9eb-9410-4911-91db-1221bb2dfabd",
@@ -477,6 +477,64 @@
                               "children": {
                                 "true": [
                                   {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "condition": {
+                                        "type": "and",
+                                        "valueA": {
+                                          "type": "eq",
+                                          "valueA": {
+                                            "type": "variable",
+                                            "value": "11"
+                                          },
+                                          "valueB": {
+                                            "type": "true"
+                                          }
+                                        },
+                                        "valueB": {
+                                          "type": "eq",
+                                          "valueA": {
+                                            "type": "variable",
+                                            "value": "12"
+                                          },
+                                          "valueB": {
+                                            "type": "false"
+                                          }
+                                        }
+                                      },
+                                      "__collapseElse": true
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_SOUND_PLAY_EFFECT",
+                                          "args": {
+                                            "type": "6405b6db-0315-4300-aca0-10629e7190de",
+                                            "priority": "high",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": true,
+                                            "effect": 32
+                                          },
+                                          "id": "884a8472-d783-4a56-8e55-e28f37f02ba1"
+                                        },
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "13",
+                                            "value": {
+                                              "type": "true"
+                                            }
+                                          },
+                                          "id": "613cd60c-b915-405c-9ee5-2dba1f442209"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "7b29245c-b229-42ac-8e0a-be00c8702f77"
+                                  },
+                                  {
                                     "command": "EVENT_CAMERA_SHAKE",
                                     "args": {
                                       "time": 0.2,
@@ -686,13 +744,6 @@
         "false": []
       },
       "id": "15dc0814-d2b4-4f80-a97c-b2d6dec7f941"
-    },
-    {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "0"
-      },
-      "id": "15be36bd-965e-4a48-9b20-acdc38139158"
     }
   ],
   "hit1Script": [
@@ -707,7 +758,7 @@
   ],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
+  "x": 18,
   "y": 16,
-  "_index": 3
+  "_index": 2
 }

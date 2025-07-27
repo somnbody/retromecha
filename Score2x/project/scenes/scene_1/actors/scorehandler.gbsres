@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "de6a2a1e-d47c-42af-920e-ae0bc20f8e9f",
-  "name": "Score",
+  "name": "ScoreHandler",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f447d9eb-9410-4911-91db-1221bb2dfabd",
