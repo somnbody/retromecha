@@ -57,6 +57,21 @@
       "symbol": "var_glblmagsearch"
     },
     {
+      "id": "11",
+      "name": "glblHasCollectable",
+      "symbol": "var_glblhascollectable"
+    },
+    {
+      "id": "12",
+      "name": "glblInAssemblyArea",
+      "symbol": "var_glblinassemblyarea"
+    },
+    {
+      "id": "13",
+      "name": "glblDrop",
+      "symbol": "var_glbldrop"
+    },
+    {
       "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff__L0",
       "name": "numProjectiles",
       "symbol": "var_numprojectiles_0"
@@ -157,19 +172,14 @@
       "symbol": "var_iscollected"
     },
     {
-      "id": "11",
-      "name": "glblHasCollectable",
-      "symbol": "var_glblhascollectable"
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L1",
+      "name": "isActive",
+      "symbol": "var_isactive"
     },
     {
-      "id": "12",
-      "name": "glblInAssemblyArea",
-      "symbol": "var_glblinassemblyarea"
-    },
-    {
-      "id": "13",
-      "name": "glblDrop",
-      "symbol": "var_glbldrop"
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L2",
+      "name": "lclSpawnSpeed",
+      "symbol": "var_lclspawnspeed"
     }
   ]
 }

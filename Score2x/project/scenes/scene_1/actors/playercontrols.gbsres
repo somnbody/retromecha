@@ -11,12 +11,26 @@
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_4",
   "script": [],
   "startScript": [
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "cde3c410-f71e-432f-8dc1-a5db39d37e3d"
+    },
     {
       "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
       "args": {
@@ -428,6 +442,26 @@
                               "id": "4afccbf1-6978-44a5-b6ef-488837232561"
                             },
                             {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "6",
+                                "value": {
+                                  "type": "mul",
+                                  "valueA": {
+                                    "type": "expression",
+                                    "value": "$06$"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": -1
+                                  }
+                                },
+                                "__collapse": true,
+                                "__comment": false
+                              },
+                              "id": "2606abc6-02c2-4c4f-838c-96d513f6cf45"
+                            },
+                            {
                               "command": "EVENT_ACTOR_MOVE_TO",
                               "args": {
                                 "actorId": "player",
@@ -601,7 +635,7 @@
                                     "value": -1
                                   }
                                 },
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__comment": false
                               },
                               "id": "573f9e7f-ceb9-4cb4-a6ce-97630e61dacd"
@@ -758,7 +792,7 @@
   ],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 16,
+  "x": 26,
+  "y": 17,
   "_index": 2
 }
