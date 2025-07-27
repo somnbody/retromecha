@@ -126,6 +126,18 @@
           }
         }
       }
+    },
+    "5b372cb5-086a-497b-a7fc-8c45ccf3f3b5": {
+      "id": "5b372cb5-086a-497b-a7fc-8c45ccf3f3b5",
+      "args": {
+        "variable": "L0"
+      }
+    },
+    "e1dd1fc9-1efc-4f34-bc6f-2d2272900a98": {
+      "id": "e1dd1fc9-1efc-4f34-bc6f-2d2272900a98",
+      "args": {
+        "actorId": "player"
+      }
     }
   },
   "symbol": "actor_1",

@@ -1,28 +1,28 @@
 {
   "_resourceType": "sprite",
-  "id": "a5e0aa39-641f-4a29-bed3-1b0a72c9a9dc",
-  "name": "other",
-  "symbol": "sprite_other",
+  "id": "929afca4-b37c-481c-836d-9464fe979604",
+  "name": "sprCollectable",
+  "symbol": "sprite_other_copy",
   "numFrames": 1,
-  "filename": "other.png",
+  "filename": "sprCollectable.png",
   "checksum": "73db1a616bca2ae04c6f8a13de4b51997a92aafc",
   "width": 16,
   "height": 16,
   "states": [
     {
-      "id": "19ebf851-71fd-415b-ad23-0560d59dd3d8",
+      "id": "67e9f70e-e4e6-4433-870c-67535daf868e",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "aa20ff11-5c1a-4e01-b241-6ca49773637d",
+          "id": "a49a16ca-5c77-4dec-a236-d3b633c179d9",
           "frames": [
             {
-              "id": "5893308d-eaa1-45db-9055-91307d54bffa",
+              "id": "032978e8-28f1-4d37-a94b-33a9d50be382",
               "tiles": [
                 {
-                  "id": "85ac3478-c2f7-41a5-8f0e-b7d2269d3a10",
+                  "id": "5bdfd8d1-371a-41aa-b126-4e1dc051c1bb",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "4d74b564-48d6-444f-878c-c6d34f0b6a99",
+                  "id": "69508fce-a4c9-49be-aea6-eac7ad0cf65a",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "e89962ce-ee0d-478b-850a-36fde8a78783",
+          "id": "1594c78e-6e9e-4575-b67e-5e4491acc334",
           "frames": [
             {
-              "id": "e0200dd9-1300-45c7-a339-1d521cb24339",
+              "id": "c2627767-fdb1-417d-867f-1c7509df84c5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "62023911-2f0c-4d15-93a1-d1a43c38854e",
+          "id": "76aa4954-de31-4c7f-a35f-32802f03bc0b",
           "frames": [
             {
-              "id": "41d2baaf-d039-4c9b-abd5-f97ac2c1e076",
+              "id": "0c283ccf-65dc-4219-8e05-e935213a2073",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5a6ae63f-4476-4e43-8467-2a1c1cf49745",
+          "id": "b7201ace-0fe4-45ee-86ca-db3a8127982e",
           "frames": [
             {
-              "id": "de0be740-d44a-4358-87b6-bee397fd9d5f",
+              "id": "3cc80d08-aabe-4d05-8b37-56b62c8793c5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "25a59a1a-a7eb-49eb-ae04-22eb95bb92fb",
+          "id": "3920dd0b-6e88-4ea7-95c6-63a3351e14ab",
           "frames": [
             {
-              "id": "b739e582-bae1-46bb-aaa9-b30a25dac1c1",
+              "id": "20d78d0d-a429-41e9-b2e5-cb4f8ffd9519",
               "tiles": []
             }
           ]
         },
         {
-          "id": "86a1e5e1-5dc7-403e-9fbc-0aefe6979dd1",
+          "id": "c904d462-25db-4336-8ffd-c18d72b08cfa",
           "frames": [
             {
-              "id": "0d7518c5-8b23-4616-a9a6-9ed0045a1381",
+              "id": "172df75a-37f9-4f06-8b7d-21556d5202d3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4b670ab5-ead8-4f04-bdec-30a46113a67b",
+          "id": "ca6cac55-fb5c-48cb-8385-5d41ed619f90",
           "frames": [
             {
-              "id": "902e8b12-a13e-40a3-b610-e222b1ba5445",
+              "id": "d1cf3e61-5f2c-473e-99f7-f38a8dabb243",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1df0c29c-d47c-46c0-b00a-e958a923e414",
+          "id": "c306e1c0-c03a-4457-97da-d03082d4dbfb",
           "frames": [
             {
-              "id": "9b1aacb4-5cab-4fbd-a84a-8261cb874a51",
+              "id": "a2786de6-cbda-40a8-8a00-554bb1c2f4d0",
               "tiles": []
             }
           ]
@@ -120,9 +120,9 @@
   "numTiles": 2,
   "canvasWidth": 16,
   "canvasHeight": 16,
-  "boundsX": 2,
+  "boundsX": 0,
   "boundsY": 0,
-  "boundsWidth": 12,
-  "boundsHeight": 11,
+  "boundsWidth": 16,
+  "boundsHeight": 8,
   "animSpeed": 15
 }
