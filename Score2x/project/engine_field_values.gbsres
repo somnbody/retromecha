@@ -4,6 +4,10 @@
     {
       "id": "fade_style",
       "value": 0
+    },
+    {
+      "id": "actors_pass",
+      "value": 1
     }
   ]
 }

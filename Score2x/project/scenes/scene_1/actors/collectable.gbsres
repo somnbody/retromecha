@@ -17,7 +17,8 @@
     "d5bf8c8b-8aa6-4b67-afb4-05640bd8c0c6": {
       "id": "d5bf8c8b-8aa6-4b67-afb4-05640bd8c0c6",
       "args": {
-        "effect": 21
+        "effect": 18,
+        "priority": "high"
       }
     },
     "27c741bb-b5ed-45ed-92df-a4d212191a5a": {
@@ -137,6 +138,18 @@
       "id": "e1dd1fc9-1efc-4f34-bc6f-2d2272900a98",
       "args": {
         "actorId": "player"
+      }
+    },
+    "a93644cc-3715-4f54-b932-dad5fdd47f88": {
+      "id": "a93644cc-3715-4f54-b932-dad5fdd47f88",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    "093ba689-62f4-4f92-b278-009a9fe214ef": {
+      "id": "093ba689-62f4-4f92-b278-009a9fe214ef",
+      "args": {
+        "variable": "L0"
       }
     }
   },
