@@ -1,0 +1,32 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "1b8b6e87-b38d-49c1-b1b8-ff2b6bf49b8f",
+  "name": "builderGridTrigger",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_FLAGS",
+      "args": {
+        "variable": "18",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "b87223de-206c-4b50-aaf0-fbc331899af9"
+    }
+  ],
+  "leaveScript": []
+}

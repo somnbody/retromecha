@@ -180,6 +180,41 @@
       "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L2",
       "name": "lclSpawnSpeed",
       "symbol": "var_lclspawnspeed"
+    },
+    {
+      "id": "14",
+      "name": "isCollectibleFalling",
+      "symbol": "var_iscollectiblefalling"
+    },
+    {
+      "id": "2c2dd65c-ebce-4b4c-bc1a-ebef32dc2911__L0",
+      "name": "isEntered",
+      "symbol": "var_isentered"
+    },
+    {
+      "id": "16",
+      "name": "isOverStack",
+      "symbol": "var_isoverstack"
+    },
+    {
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L3",
+      "name": "initPosX",
+      "symbol": "var_initposx"
+    },
+    {
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L4",
+      "name": "initPosY",
+      "symbol": "var_initposy"
+    },
+    {
+      "id": "17",
+      "name": "glbCursorHidden",
+      "symbol": "var_glbcursorhidden"
+    },
+    {
+      "id": "18",
+      "name": "BuilderTriggerFlags",
+      "symbol": "var_buildertriggerflags"
     }
   ]
 }

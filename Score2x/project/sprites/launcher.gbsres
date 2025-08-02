@@ -1,11 +1,11 @@
 {
   "_resourceType": "sprite",
   "id": "1185aca6-ca3c-4c5e-92d7-ace13d853d5f",
-  "name": "pGrabber",
+  "name": "launcher",
   "symbol": "sprite_launcher",
   "numFrames": 1.5,
   "filename": "launcher.png",
-  "checksum": "e3cc33bd51648db7ba01ac5b1256955d60529dbd",
+  "checksum": "588bef16bd7b71a430faad0f9402645ac918b1ac",
   "width": 24,
   "height": 16,
   "states": [
@@ -133,9 +133,9 @@
   "numTiles": 2,
   "canvasWidth": 24,
   "canvasHeight": 16,
-  "boundsX": -4,
+  "boundsX": 4,
   "boundsY": 0,
-  "boundsWidth": 24,
-  "boundsHeight": 16,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
   "animSpeed": 15
 }
