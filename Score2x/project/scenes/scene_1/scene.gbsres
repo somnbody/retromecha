@@ -13,8 +13,8 @@
   "collisions": "0f4+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0014+0f8+0018+0f4+007+0f!0010+0f4+007+0f!003+0f11+007+0f!00c+0f8+007+0f!00c+0f8+007+0f!00c+0f8+007+0f!00c+0f10+003+0fd+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 326,
-  "y": 245,
+  "x": 320,
+  "y": 240,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -123,7 +123,8 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "7a238059-8250-42f3-8b43-c796e88fd6f2",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "92cafe1b-3fcd-483f-9f0d-7fbf8b2b365b"
     },

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "de6a2a1e-d47c-42af-920e-ae0bc20f8e9f",
-  "name": "ScoreHandler",
+  "name": "GameSystemsHandler",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "f447d9eb-9410-4911-91db-1221bb2dfabd",
@@ -16,7 +16,30 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_0",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "22",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "4337efc2-e9d7-4a09-babc-68de4c3717d2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "c2f7b0cd-366a-4e48-80ab-9e788c2561e6"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_INC_VALUE",

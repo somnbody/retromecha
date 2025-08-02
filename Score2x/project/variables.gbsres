@@ -72,6 +72,46 @@
       "symbol": "var_glbldrop"
     },
     {
+      "id": "14",
+      "name": "isCollectibleFalling",
+      "symbol": "var_iscollectiblefalling"
+    },
+    {
+      "id": "16",
+      "name": "isOverStack",
+      "symbol": "var_isoverstack"
+    },
+    {
+      "id": "17",
+      "name": "glbCursorHidden",
+      "symbol": "var_glbcursorhidden"
+    },
+    {
+      "id": "18",
+      "name": "BuilderTriggerFlags",
+      "symbol": "var_buildertriggerflags"
+    },
+    {
+      "id": "19",
+      "name": "glblColTypeA",
+      "symbol": "var_glblcoltypea"
+    },
+    {
+      "id": "20",
+      "name": "glbWhichCollectible",
+      "symbol": "var_glbwhichcollectible"
+    },
+    {
+      "id": "21",
+      "name": "glbColTypeB",
+      "symbol": "var_glbcoltypeb"
+    },
+    {
+      "id": "22",
+      "name": "glblMaxFrames",
+      "symbol": "var_glblmaxframes"
+    },
+    {
       "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff__L0",
       "name": "numProjectiles",
       "symbol": "var_numprojectiles_0"
@@ -118,8 +158,8 @@
     },
     {
       "id": "da231020-0375-4001-aa33-80863da25f66__L2",
-      "name": "notUsed",
-      "symbol": "var_notused"
+      "name": "moveToYpos",
+      "symbol": "var_movetoypos"
     },
     {
       "id": "da231020-0375-4001-aa33-80863da25f66__L3",
@@ -182,19 +222,9 @@
       "symbol": "var_lclspawnspeed"
     },
     {
-      "id": "14",
-      "name": "isCollectibleFalling",
-      "symbol": "var_iscollectiblefalling"
-    },
-    {
       "id": "2c2dd65c-ebce-4b4c-bc1a-ebef32dc2911__L0",
       "name": "isEntered",
       "symbol": "var_isentered"
-    },
-    {
-      "id": "16",
-      "name": "isOverStack",
-      "symbol": "var_isoverstack"
     },
     {
       "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L3",
@@ -207,14 +237,14 @@
       "symbol": "var_initposy"
     },
     {
-      "id": "17",
-      "name": "glbCursorHidden",
-      "symbol": "var_glbcursorhidden"
+      "id": "d4575ad2-d97c-494a-a9b4-e47d87cd81b6__L5",
+      "name": "isRefreshing",
+      "symbol": "var_isrefreshing"
     },
     {
-      "id": "18",
-      "name": "BuilderTriggerFlags",
-      "symbol": "var_buildertriggerflags"
+      "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L0",
+      "name": "isOpen",
+      "symbol": "var_isopen"
     }
   ]
 }
