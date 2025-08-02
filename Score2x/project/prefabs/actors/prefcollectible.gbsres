@@ -427,7 +427,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -824,14 +824,16 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false,
+              "__label": "DROPPED INSIDE ASSEMBLY AREA"
             },
             "children": {
               "true": [
                 {
                   "command": "EVENT_ACTOR_HIDE",
                   "args": {
-                    "actorId": "$self$"
+                    "actorId": "$self$",
+                    "__comment": true
                   },
                   "id": "ab0dcbe9-f53e-4e39-953b-ccf15fe18a48"
                 },
@@ -973,22 +975,55 @@
                         "id": "7a7b6dc6-c4f1-449c-b583-4b5a6e283a0b"
                       },
                       {
-                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "command": "EVENT_IF",
                         "args": {
-                          "actorId": "$self$",
-                          "x": {
-                            "type": "number",
-                            "value": 12
+                          "condition": {
+                            "type": "variable",
+                            "value": "12"
                           },
-                          "y": {
-                            "type": "number",
-                            "value": 20
-                          },
-                          "moveType": "diagonal",
-                          "useCollisions": false,
-                          "__collapse": false
+                          "__collapseElse": false
                         },
-                        "id": "bb95e5de-a7d3-4fc9-b7bc-ba066f402f97"
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_POSITION",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "variable",
+                                  "value": "L3"
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "L4"
+                                },
+                                "__collapse": false
+                              },
+                              "id": "ac883273-a0e6-4cc5-8dd8-d7878c66a6c3"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_MOVE_TO",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": 12
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 20
+                                },
+                                "moveType": "diagonal",
+                                "useCollisions": false,
+                                "__collapse": false
+                              },
+                              "id": "bb95e5de-a7d3-4fc9-b7bc-ba066f402f97"
+                            }
+                          ]
+                        },
+                        "id": "7cd57c56-bf1a-4f5c-9272-6f264ddde175"
                       },
                       {
                         "command": "EVENT_WAIT",
@@ -1033,17 +1068,6 @@
                           "__collapse": false
                         },
                         "id": "311ca29f-6ec5-4d1e-90b8-3a57bc94807c"
-                      },
-                      {
-                        "command": "EVENT_SET_VALUE",
-                        "args": {
-                          "variable": "0",
-                          "value": {
-                            "type": "number",
-                            "value": 0
-                          }
-                        },
-                        "id": "7cdc7227-26c5-4125-96a8-2ee3dab9d54c"
                       },
                       {
                         "command": "EVENT_SET_VALUE",

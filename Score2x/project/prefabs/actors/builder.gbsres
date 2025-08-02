@@ -4,7 +4,7 @@
   "name": "builder",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f447d9eb-9410-4911-91db-1221bb2dfabd",
+  "spriteSheetId": "744ba68c-11cf-4dff-b9c9-ecd74d4d997e",
   "moveSpeed": 1,
   "animSpeed": 255,
   "paletteId": "",
@@ -284,7 +284,8 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "$self$",
-        "spriteSheetId": "744ba68c-11cf-4dff-b9c9-ecd74d4d997e"
+        "spriteSheetId": "744ba68c-11cf-4dff-b9c9-ecd74d4d997e",
+        "__comment": true
       },
       "id": "54a86eee-4bd5-49e5-b29b-af8bca5fcc07",
       "children": {}
