@@ -833,7 +833,7 @@
                   "command": "EVENT_ACTOR_HIDE",
                   "args": {
                     "actorId": "$self$",
-                    "__comment": true
+                    "__comment": false
                   },
                   "id": "ab0dcbe9-f53e-4e39-953b-ccf15fe18a48"
                 },
@@ -1035,12 +1035,47 @@
                         "id": "5363bfaf-3760-4f7b-aa66-c6f6d20c06a1"
                       },
                       {
-                        "command": "EVENT_INC_VALUE",
+                        "command": "EVENT_IF",
                         "args": {
-                          "variable": "19",
-                          "__collapse": false
+                          "condition": {
+                            "type": "lt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "19"
+                            },
+                            "valueB": {
+                              "type": "variable",
+                              "value": "22"
+                            }
+                          },
+                          "__collapseElse": false
                         },
-                        "id": "3200488e-6749-4e3b-bb7b-6d7eb268a6a0"
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "19",
+                                "__collapse": false
+                              },
+                              "id": "3200488e-6749-4e3b-bb7b-6d7eb268a6a0"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "19",
+                                "value": {
+                                  "type": "number",
+                                  "value": 1
+                                }
+                              },
+                              "id": "e051d528-fd97-4b9f-acb3-cbf7b6cf8be3"
+                            }
+                          ]
+                        },
+                        "id": "1048cbbd-283a-47ae-af21-ff45034622c7"
                       },
                       {
                         "command": "EVENT_ACTOR_SET_FRAME",

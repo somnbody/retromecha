@@ -20,7 +20,7 @@
         "variable": "21",
         "value": {
           "type": "number",
-          "value": 3
+          "value": 6
         }
       }
     },
@@ -77,6 +77,28 @@
             "value": "T0"
           }
         }
+      }
+    },
+    "1048cbbd-283a-47ae-af21-ff45034622c7": {
+      "id": "1048cbbd-283a-47ae-af21-ff45034622c7",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "22"
+          }
+        }
+      }
+    },
+    "e051d528-fd97-4b9f-acb3-cbf7b6cf8be3": {
+      "id": "e051d528-fd97-4b9f-acb3-cbf7b6cf8be3",
+      "args": {
+        "variable": "21"
       }
     }
   },

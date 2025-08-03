@@ -145,6 +145,68 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "21fde71a-014c-4b8a-b66f-779b91bb1ae3",
+              "tiles": [
+                {
+                  "id": "aa725d6c-1a5d-4d02-a225-7f72b4ac95d1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 48,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "6978d3fa-16ac-4c0b-b886-1db82961fdea",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 56,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "e7445d21-d9db-4e93-a06f-c9b387fbbcfe",
+              "tiles": [
+                {
+                  "id": "fdead260-6da5-447f-86bc-ece9ed2a8ac1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "058ade92-a199-41cf-954f-f0958fc2abbd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },

@@ -113,18 +113,18 @@
     },
     {
       "id": "23",
-      "name": "glbA1Occupied",
-      "symbol": "var_glba1occupied"
+      "name": "glbAOccupied",
+      "symbol": "var_glbaoccupied"
     },
     {
       "id": "24",
-      "name": "glbA2Occupied",
-      "symbol": "var_glba2occupied"
+      "name": "glbBOccupied",
+      "symbol": "var_glbboccupied"
     },
     {
       "id": "25",
-      "name": "glbA3Occupied",
-      "symbol": "var_glba3occupied"
+      "name": "glbCOccupied",
+      "symbol": "var_glbcoccupied"
     },
     {
       "id": "26",
@@ -184,7 +184,7 @@
     {
       "id": "da231020-0375-4001-aa33-80863da25f66__L0",
       "name": "Yinit",
-      "symbol": "var_yinit_0"
+      "symbol": "var_yinit"
     },
     {
       "id": "da231020-0375-4001-aa33-80863da25f66__L1",
@@ -295,6 +295,36 @@
       "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L3",
       "name": "frameReplace",
       "symbol": "var_framereplace"
+    },
+    {
+      "id": "29",
+      "name": "glbAYOffset",
+      "symbol": "var_glbayoffset"
+    },
+    {
+      "id": "30",
+      "name": "glbBYOffset",
+      "symbol": "var_glbbyoffset"
+    },
+    {
+      "id": "31",
+      "name": "glbCYOffset",
+      "symbol": "var_glbcyoffset"
+    },
+    {
+      "id": "33",
+      "name": "glbAXOffset",
+      "symbol": "var_glbaxoffset"
+    },
+    {
+      "id": "34",
+      "name": "glbBXOffset",
+      "symbol": "var_glbbxoffset"
+    },
+    {
+      "id": "35",
+      "name": "glbCXOffset",
+      "symbol": "var_glbcxoffset"
     }
   ]
 }

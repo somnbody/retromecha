@@ -4,7 +4,7 @@
   "name": "builder",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "89e5aaa8-7213-4a5b-964e-08901f36cba6",
+  "spriteSheetId": "744ba68c-11cf-4dff-b9c9-ecd74d4d997e",
   "moveSpeed": 1,
   "animSpeed": 255,
   "paletteId": "",
@@ -46,7 +46,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "23",
+                    "variable": "24",
                     "value": {
                       "type": "true"
                     }
@@ -122,7 +122,7 @@
                     "__collapseCase15": false,
                     "value15": 16,
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
@@ -209,9 +209,21 @@
                       "type": "variable",
                       "value": "L3"
                     },
-                    "tileSize": "16px"
+                    "tileSize": "16px",
+                    "__comment": false
                   },
                   "id": "14e75b3d-ba1a-4c7c-9bec-be484ba37dfc"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "34",
+                    "value": {
+                      "type": "variable",
+                      "value": "L1"
+                    }
+                  },
+                  "id": "be610011-2e7b-4f4e-a324-3963a7773e4d"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_FRAME",
@@ -381,12 +393,57 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
+                    "variable": "30",
+                    "value": {
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "30"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 2
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "id": "2647c5eb-997a-4cf1-8b49-106a85c69506"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
                     "variable": "L0",
                     "value": {
                       "type": "false"
-                    }
+                    },
+                    "__collapse": false
                   },
                   "id": "9b46548b-0618-47bd-b384-c95e378c7b85"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -2
+                    }
+                  },
+                  "id": "4d866f16-0cee-478f-bf7c-6f72e20226d9"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "L0",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "dcf233ba-acd5-4134-8e7b-600ef4b85999"
                 }
               ],
               "false": []
@@ -419,13 +476,21 @@
       "children": {}
     },
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a342ce90-36d7-4560-8fac-fc13bc694015"
+    },
+    {
       "command": "EVENT_ACTOR_SET_FRAME",
       "args": {
         "actorId": "$self$",
         "frame": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__comment": true
       },
       "id": "769e08a6-218a-4437-82f9-f14dadb08104"
     },

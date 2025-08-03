@@ -33,7 +33,7 @@
         "variable": "22",
         "value": {
           "type": "number",
-          "value": 4
+          "value": 6
         }
       },
       "id": "4337efc2-e9d7-4a09-babc-68de4c3717d2"
@@ -48,6 +48,39 @@
         }
       },
       "id": "c2f7b0cd-366a-4e48-80ab-9e788c2561e6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "29",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "f0a636ca-9d07-4977-916e-352b8b1cc49b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "e9bb4fbd-d7ef-433f-baae-828f050d7369"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "31",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "2789794a-54c7-4734-a3ce-41a3f7be1474"
     }
   ],
   "updateScript": [
