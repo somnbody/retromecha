@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "92d14a08-9824-466f-8aa3-eb323433172c",
-  "name": "",
+  "name": "BuilderA3",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -13,7 +13,21 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "5b5d8146-2d14-42b4-a3bf-5bb16b97be91": {
+      "id": "5b5d8146-2d14-42b4-a3bf-5bb16b97be91",
+      "args": {
+        "flag3": true,
+        "flag2": false
+      }
+    },
+    "b6d8fbc0-82cb-44af-aab2-965386978b96": {
+      "id": "b6d8fbc0-82cb-44af-aab2-965386978b96",
+      "args": {
+        "variable": "25"
+      }
+    }
+  },
   "symbol": "actor_8",
   "script": [],
   "startScript": [],

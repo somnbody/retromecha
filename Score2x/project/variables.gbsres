@@ -245,6 +245,31 @@
       "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L0",
       "name": "isOpen",
       "symbol": "var_isopen"
+    },
+    {
+      "id": "23",
+      "name": "glbA1Occupied",
+      "symbol": "var_glba1occupied"
+    },
+    {
+      "id": "24",
+      "name": "glbA2Occupied",
+      "symbol": "var_glba2occupied"
+    },
+    {
+      "id": "25",
+      "name": "glbA3Occupied",
+      "symbol": "var_glba3occupied"
+    },
+    {
+      "id": "32",
+      "name": "glbNeedCheckCursor",
+      "symbol": "var_glbneedcheckcursor"
+    },
+    {
+      "id": "26",
+      "name": "tempIsCursorOverlapping",
+      "symbol": "var_tempiscursoroverlapping"
     }
   ]
 }
