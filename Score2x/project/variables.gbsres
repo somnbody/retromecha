@@ -132,6 +132,16 @@
       "symbol": "var_tempiscursoroverlapping"
     },
     {
+      "id": "27",
+      "name": "glbCursorX",
+      "symbol": "var_glbcursorx"
+    },
+    {
+      "id": "28",
+      "name": "glbCursorY",
+      "symbol": "var_glbcursory"
+    },
+    {
       "id": "32",
       "name": "glbNeedCheckCursor",
       "symbol": "var_glbneedcheckcursor"
@@ -280,16 +290,6 @@
       "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L2",
       "name": "spawnY",
       "symbol": "var_spawny_0"
-    },
-    {
-      "id": "27",
-      "name": "glbCursorX",
-      "symbol": "var_glbcursorx"
-    },
-    {
-      "id": "28",
-      "name": "glbCursorY",
-      "symbol": "var_glbcursory"
     },
     {
       "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L3",
