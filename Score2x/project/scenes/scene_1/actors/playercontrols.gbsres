@@ -486,7 +486,7 @@
                                               "value": "17"
                                             },
                                             "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                           },
                                           "children": {
                                             "true": [
@@ -522,6 +522,45 @@
                                             "false": []
                                           },
                                           "id": "92fc5932-2d6e-4377-9e47-9727d79a6cbe"
+                                        },
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "condition": {
+                                              "type": "gt",
+                                              "valueA": {
+                                                "type": "property",
+                                                "target": "0b95394a-f87b-4019-9975-dea80678494a",
+                                                "property": "xpos"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 9
+                                              }
+                                            },
+                                            "__collapseElse": false
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_ACTOR_HIDE",
+                                                "args": {
+                                                  "actorId": "0b95394a-f87b-4019-9975-dea80678494a"
+                                                },
+                                                "id": "d79dff7d-9c33-44f2-a3eb-471197aba28a"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_ACTOR_SHOW",
+                                                "args": {
+                                                  "actorId": "0b95394a-f87b-4019-9975-dea80678494a"
+                                                },
+                                                "id": "54591dfe-0b9f-47a2-96ec-5c91e8e2b043"
+                                              }
+                                            ]
+                                          },
+                                          "id": "84d0c99c-a458-4431-b737-7f40f0554d21"
                                         }
                                       ],
                                       "false": [
@@ -551,7 +590,8 @@
                                                 }
                                               }
                                             },
-                                            "__collapseElse": true
+                                            "__collapseElse": false,
+                                            "__collapse": false
                                           },
                                           "children": {
                                             "true": [

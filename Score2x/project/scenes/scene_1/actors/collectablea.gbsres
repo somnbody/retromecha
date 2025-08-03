@@ -13,7 +13,20 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "272a73cf-27c3-47e4-b677-f5e58b1d109f": {
+      "id": "272a73cf-27c3-47e4-b677-f5e58b1d109f",
+      "args": {
+        "variable": "20"
+      }
+    },
+    "b8b687a7-d601-44d9-bf3b-6ccee9bc83c2": {
+      "id": "b8b687a7-d601-44d9-bf3b-6ccee9bc83c2",
+      "args": {
+        "variable": "20"
+      }
+    }
+  },
   "symbol": "actor_2",
   "script": [],
   "startScript": [],

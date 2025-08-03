@@ -112,6 +112,31 @@
       "symbol": "var_glblmaxframes"
     },
     {
+      "id": "23",
+      "name": "glbA1Occupied",
+      "symbol": "var_glba1occupied"
+    },
+    {
+      "id": "24",
+      "name": "glbA2Occupied",
+      "symbol": "var_glba2occupied"
+    },
+    {
+      "id": "25",
+      "name": "glbA3Occupied",
+      "symbol": "var_glba3occupied"
+    },
+    {
+      "id": "26",
+      "name": "tempIsCursorOverlapping",
+      "symbol": "var_tempiscursoroverlapping"
+    },
+    {
+      "id": "32",
+      "name": "glbNeedCheckCursor",
+      "symbol": "var_glbneedcheckcursor"
+    },
+    {
       "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff__L0",
       "name": "numProjectiles",
       "symbol": "var_numprojectiles_0"
@@ -247,29 +272,29 @@
       "symbol": "var_isopen"
     },
     {
-      "id": "23",
-      "name": "glbA1Occupied",
-      "symbol": "var_glba1occupied"
+      "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L1",
+      "name": "spawnX",
+      "symbol": "var_spawnx"
     },
     {
-      "id": "24",
-      "name": "glbA2Occupied",
-      "symbol": "var_glba2occupied"
+      "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L2",
+      "name": "spawnY",
+      "symbol": "var_spawny_0"
     },
     {
-      "id": "25",
-      "name": "glbA3Occupied",
-      "symbol": "var_glba3occupied"
+      "id": "27",
+      "name": "glbCursorX",
+      "symbol": "var_glbcursorx"
     },
     {
-      "id": "32",
-      "name": "glbNeedCheckCursor",
-      "symbol": "var_glbneedcheckcursor"
+      "id": "28",
+      "name": "glbCursorY",
+      "symbol": "var_glbcursory"
     },
     {
-      "id": "26",
-      "name": "tempIsCursorOverlapping",
-      "symbol": "var_tempiscursoroverlapping"
+      "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L3",
+      "name": "frameReplace",
+      "symbol": "var_framereplace"
     }
   ]
 }

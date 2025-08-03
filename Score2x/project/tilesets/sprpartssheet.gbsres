@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e8d717f3-f41e-489c-aa47-1267fa841859",
+  "name": "sprPartsSheet",
+  "symbol": "tileset_sprpartssheet",
+  "width": 10,
+  "height": 2,
+  "imageWidth": 80,
+  "imageHeight": 16,
+  "filename": "sprPartsSheet.png"
+}
