@@ -19,6 +19,29 @@
       "args": {
         "variable": "33"
       }
+    },
+    "b6d8fbc0-82cb-44af-aab2-965386978b96": {
+      "id": "b6d8fbc0-82cb-44af-aab2-965386978b96",
+      "args": {
+        "variable": "23"
+      }
+    },
+    "2647c5eb-997a-4cf1-8b49-106a85c69506": {
+      "id": "2647c5eb-997a-4cf1-8b49-106a85c69506",
+      "args": {
+        "variable": "29",
+        "value": {
+          "type": "sub",
+          "valueA": {
+            "type": "variable",
+            "value": "29"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        }
+      }
     }
   },
   "symbol": "actor_5",

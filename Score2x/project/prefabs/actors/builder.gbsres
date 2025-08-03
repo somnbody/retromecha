@@ -46,7 +46,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "24",
+                    "variable": "25",
                     "value": {
                       "type": "true"
                     }
@@ -217,7 +217,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "34",
+                    "variable": "35",
                     "value": {
                       "type": "variable",
                       "value": "L1"
@@ -393,12 +393,12 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "30",
+                    "variable": "31",
                     "value": {
                       "type": "sub",
                       "valueA": {
                         "type": "variable",
-                        "value": "30"
+                        "value": "31"
                       },
                       "valueB": {
                         "type": "number",

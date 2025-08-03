@@ -13,50 +13,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {
-    "5b5d8146-2d14-42b4-a3bf-5bb16b97be91": {
-      "id": "5b5d8146-2d14-42b4-a3bf-5bb16b97be91",
-      "args": {
-        "flag3": true,
-        "flag2": false
-      }
-    },
-    "b6d8fbc0-82cb-44af-aab2-965386978b96": {
-      "id": "b6d8fbc0-82cb-44af-aab2-965386978b96",
-      "args": {
-        "variable": "25"
-      }
-    },
-    "2647c5eb-997a-4cf1-8b49-106a85c69506": {
-      "id": "2647c5eb-997a-4cf1-8b49-106a85c69506",
-      "args": {
-        "variable": "31",
-        "value": {
-          "type": "sub",
-          "valueA": {
-            "type": "variable",
-            "value": "31"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 2
-          }
-        }
-      }
-    },
-    "455047c6-adff-4f49-9e9e-228ae1f19c2f": {
-      "id": "455047c6-adff-4f49-9e9e-228ae1f19c2f",
-      "args": {
-        "variable": "35"
-      }
-    },
-    "be610011-2e7b-4f4e-a324-3963a7773e4d": {
-      "id": "be610011-2e7b-4f4e-a324-3963a7773e4d",
-      "args": {
-        "variable": "35"
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_8",
   "script": [],
   "startScript": [],

@@ -142,9 +142,39 @@
       "symbol": "var_glbcursory"
     },
     {
+      "id": "29",
+      "name": "glbAYOffset",
+      "symbol": "var_glbayoffset"
+    },
+    {
+      "id": "30",
+      "name": "glbBYOffset",
+      "symbol": "var_glbbyoffset"
+    },
+    {
+      "id": "31",
+      "name": "glbCYOffset",
+      "symbol": "var_glbcyoffset"
+    },
+    {
       "id": "32",
       "name": "glbNeedCheckCursor",
       "symbol": "var_glbneedcheckcursor"
+    },
+    {
+      "id": "33",
+      "name": "glbAXOffset",
+      "symbol": "var_glbaxoffset"
+    },
+    {
+      "id": "34",
+      "name": "glbBXOffset",
+      "symbol": "var_glbbxoffset"
+    },
+    {
+      "id": "35",
+      "name": "glbCXOffset",
+      "symbol": "var_glbcxoffset"
     },
     {
       "id": "dcf5471a-a5b7-47a5-9c00-b4a229bd49ff__L0",
@@ -295,36 +325,6 @@
       "id": "bad5c162-057a-4698-8852-199abb3c5f0a__L3",
       "name": "frameReplace",
       "symbol": "var_framereplace"
-    },
-    {
-      "id": "29",
-      "name": "glbAYOffset",
-      "symbol": "var_glbayoffset"
-    },
-    {
-      "id": "30",
-      "name": "glbBYOffset",
-      "symbol": "var_glbbyoffset"
-    },
-    {
-      "id": "31",
-      "name": "glbCYOffset",
-      "symbol": "var_glbcyoffset"
-    },
-    {
-      "id": "33",
-      "name": "glbAXOffset",
-      "symbol": "var_glbaxoffset"
-    },
-    {
-      "id": "34",
-      "name": "glbBXOffset",
-      "symbol": "var_glbbxoffset"
-    },
-    {
-      "id": "35",
-      "name": "glbCXOffset",
-      "symbol": "var_glbcxoffset"
     }
   ]
 }
